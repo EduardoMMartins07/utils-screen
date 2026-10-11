@@ -1,0 +1,21 @@
+<Application x:Class="ScreenControls.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="WindowBackground" Color="#10151F" />
+        <SolidColorBrush x:Key="Surface" Color="#1B2330" />
+        <SolidColorBrush x:Key="PrimaryText" Color="#F3F6FC" />
+        <SolidColorBrush x:Key="SecondaryText" Color="#A2AEBF" />
+        <SolidColorBrush x:Key="Accent" Color="#8AA4FF" />
+        <SolidColorBrush x:Key="TrackRemainder" Color="#394456" />
+        <SolidColorBrush x:Key="TrackFill" Color="#8AA4FF" />
+        <SolidColorBrush x:Key="ThumbFill" Color="#D3DCFF" />
+        <SolidColorBrush x:Key="ThemeControlBackground" Color="#232D3B" />
+        <SolidColorBrush x:Key="ThemeSelectedBackground" Color="#334675" />
+        <SolidColorBrush x:Key="VolumeIconBackground" Color="#263251" />
+        <SolidColorBrush x:Key="VolumeIconForeground" Color="#AFC0FF" />
+        <SolidColorBrush x:Key="BrightnessIconBackground" Color="#3A3021" />
+        <SolidColorBrush x:Key="BrightnessIconForeground" Color="#F5B85E" />
+    </Application.Resources>
+</Application>
